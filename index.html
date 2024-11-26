@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/> -->
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <script src="script.js" defer></script>
+    <!-- defer tells the browser to wait until the page has finished before excecuting the script-->
+</head>
+<body >
+    <button class="chatbot-toggler">
+        <span class="material-icons">
+            mode_comment
+            </span>
+        <span class="material-icons">
+            close
+            </span>
+    </button>
+    <div class="chatBot">
+        <header>
+            <h2>ChatBot</h2>
+            <span class="close-btn material-icons">
+                close
+                </span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-icons">
+                    smart_toy
+                    </span>
+                <p>Hi there 👋 <br> How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-icons">send</span>
+        </div>
+    </div>
+</body>
+</html>
